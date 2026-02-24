@@ -1,8 +1,15 @@
-# OOPS Banner App
-
-Incremental development of the OOPS Banner Application using feature branches.
-
-Branch Strategy:
-- main → Stable documentation only
-- develop → Integration branch
-- feature/* → Use case implementations
+/**
+ * OOPSBannerApp UC1- OOPS Banner Display Application
+ *
+ * This class demostrates a simple Java application that displays the object
+ * Oreinted Programming system OOPS acronym to the console 
+ *
+ * @author Developer
+ * @version 1.0
+ */
+ 
+ public class OOPSBannerApp {
+	 public static void main(String[] args) {
+		 System.out.println(x:"OOPS");
+	 }
+ }
